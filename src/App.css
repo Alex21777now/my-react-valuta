@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  color: #FFFFFF;
+  height: 2300vh;
+
+  justify-content: normal;
+  align-items: normal;
+
+  background: rgba(38,161,145,1);
+background: -moz-linear-gradient(left, rgba(38,161,145,1) 0%, rgba(15,118,97,1) 50%, rgba(41,163,145,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38,161,145,1)), color-stop(50%, rgba(15,118,97,1)), color-stop(100%, rgba(41,163,145,1)));
+background: -webkit-linear-gradient(left, rgba(38,161,145,1) 0%, rgba(15,118,97,1) 50%, rgba(41,163,145,1) 100%);
+background: -o-linear-gradient(left, rgba(38,161,145,1) 0%, rgba(15,118,97,1) 50%, rgba(41,163,145,1) 100%);
+background: -ms-linear-gradient(left, rgba(38,161,145,1) 0%, rgba(15,118,97,1) 50%, rgba(41,163,145,1) 100%);
+background: linear-gradient(to right, rgba(38,161,145,1) 0%, rgba(15,118,97,1) 50%, rgba(41,163,145,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26a191', endColorstr='#29a391', GradientType=1 );
+}
+.owner {
+  font-size: 60%;
+  text-align: right;
+  margin-right: 6%;
+  
+}
